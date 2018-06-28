@@ -15,6 +15,7 @@
 		8F9C5F8F20E4898700E59412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C5F8E20E4898700E59412 /* main.m */; };
 		8F9C5F9920E4898700E59412 /* detailPageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C5F9820E4898700E59412 /* detailPageDemoTests.m */; };
 		8F9C5FA420E4898700E59412 /* detailPageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C5FA320E4898700E59412 /* detailPageDemoUITests.m */; };
+		8F9C5FB320E48A4F00E59412 /* UIView+HSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C5FB120E48A4F00E59412 /* UIView+HSKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8F9C5F9F20E4898700E59412 /* detailPageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = detailPageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9C5FA320E4898700E59412 /* detailPageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detailPageDemoUITests.m; sourceTree = "<group>"; };
 		8F9C5FA520E4898700E59412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9C5FB120E48A4F00E59412 /* UIView+HSKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HSKit.m"; sourceTree = "<group>"; };
+		8F9C5FB220E48A4F00E59412 /* UIView+HSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HSKit.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		8F9C5F7E20E4898700E59412 /* detailPageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8F9C5FB220E48A4F00E59412 /* UIView+HSKit.h */,
+				8F9C5FB120E48A4F00E59412 /* UIView+HSKit.m */,
 				8F9C5F7F20E4898700E59412 /* AppDelegate.h */,
 				8F9C5F8020E4898700E59412 /* AppDelegate.m */,
 				8F9C5F8220E4898700E59412 /* ViewController.h */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9C5FB320E48A4F00E59412 /* UIView+HSKit.m in Sources */,
 				8F9C5F8420E4898700E59412 /* ViewController.m in Sources */,
 				8F9C5F8F20E4898700E59412 /* main.m in Sources */,
 				8F9C5F8120E4898700E59412 /* AppDelegate.m in Sources */,
@@ -431,11 +437,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XR24UT92B;
 				INFOPLIST_FILE = detailPageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.detailPageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +452,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XR24UT92B;
 				INFOPLIST_FILE = detailPageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.detailPageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
